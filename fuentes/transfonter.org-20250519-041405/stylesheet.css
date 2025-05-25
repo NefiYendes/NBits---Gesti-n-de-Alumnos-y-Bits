@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Retro Gaming';
+    src: url('RetroGaming.woff2') format('woff2'),
+        url('RetroGaming.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

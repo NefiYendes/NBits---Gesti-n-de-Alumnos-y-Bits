@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./Iconos/growth__1_-removebg-preview.png">
+</head>
+<body>
+    <header>
+        <nav class="navegador">
+            <h1>EnglishConnect1</h1>
+            <div class="NB">
+                <img src="./Iconos/growth__1_-removebg-preview.png" alt=""><p>Nbits</p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="formulario">
+            <form action="submit">
+                <h2>Ingrese la información del estudiante</h2>
+                <label for="name">Nombre:</label>
+                <input type="text" id="Nombre" required>
+                
+                <label for="age">Edad:</label>
+                <input id="edad" type="number" min="5" max="120" required>
+
+                <label for="bits">Nbits:</label>
+                <input id="monedas" type="number" min="1" max="60">
+
+                <button id="enviar" type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="moneda" class="moneda">
+            <div class="franco">
+                <img src="./Iconos/icons8-franco-suizo-64.png" alt="moneda">
+                <input id="central-bits" class="total" type="number" value="60" min="1" max="60" >
+                <p>bits</p>
+            </div>
+        </section>
+        <section id="grid" class="grid">            
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<script src="script.js"></script>
+</html>

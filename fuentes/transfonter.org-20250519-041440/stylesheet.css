@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Karma Future';
+    src: url('KarmaFuture.woff2') format('woff2'),
+        url('KarmaFuture.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
