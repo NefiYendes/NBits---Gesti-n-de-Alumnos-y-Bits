@@ -233,3 +233,81 @@ button:hover{
     height: 2rem;
     width: auto;
 }
+@media (max-width: 768px) {
+    .navegador {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .navegador h1 {
+        font-size: 1.2rem;
+    }
+
+    .NB {
+        margin-top: 0.5rem;
+    }
+
+    .NB img {
+        height: 1.5rem;
+    }
+
+    .navegador p {
+        font-size: 1.2rem;
+    }
+
+    form {
+        width: 95%;
+        padding: 0.8rem;
+    }
+
+    .franco {
+        width: 70%;
+    }
+
+    .franco img {
+        height: 6rem;
+    }
+
+    .franco p {
+        font-size: 1.2rem;
+    }
+
+    .total {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navegador h1 {
+        font-size: 1rem;
+    }
+
+    .NB img {
+        height: 1rem;
+    }
+
+    .navegador p {
+        font-size: 1rem;
+    }
+
+    form {
+        width: 98%;
+        padding: 0.5rem;
+    }
+
+    .franco {
+        width: 80%;
+    }
+
+    .franco img {
+        height: 5rem;
+    }
+
+    .franco p {
+        font-size: 1rem;
+    }
+
+    .total {
+        font-size: 1rem;
+    }
+}
